@@ -6,15 +6,14 @@ $(document).ready(function () {
       console.log('🚀 jQuery loaded');
     }
     /* Change navbar links if not the root page */
-    // var root = window.location.origin + '/';
-    // var currentPage = window.location.href;
-    // var navbarLinks = $(".navbar > ul > li > a");
-  
-    // if (root !== currentPage) {
-    //   navbarLinks.each(function () {
-    //     $(this).attr("href", root + $(this).attr("href"));
-    //   });
-    // }
+    var root = window.location.origin + '/';
+    var currentPage = window.location.href;
+    var navbarLinks = $(".navbar > ul > li > a")
+    if (root !== currentPage) {
+      navbarLinks.each(function () {
+        $(this).attr("href", root + $(this).attr("href"));
+      });
+    }
   
     $('#menu').click(function () {
       $(this).toggleClass('fa-times');
