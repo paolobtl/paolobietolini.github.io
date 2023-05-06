@@ -29,13 +29,14 @@ article {
 	text-align: left;
 	color: var(--white);
 	padding: 0 8%;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	line-height: 2.5rem;
 }
 
 article :is(h1, h2, h3, h4, h5, h6) {
 	margin: 5rem auto 2rem;
 	font-size: 4rem;
+	line-height: 6rem;
 }
 
 article img {

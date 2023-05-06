@@ -5,16 +5,6 @@
     <link>https://paolobietolini.xyz/</link>
     <description>Recent content on Paolo Bietolini</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>it</language>
-    <lastBuildDate>Sat, 06 May 2023 22:05:31 +0200</lastBuildDate><atom:link href="https://paolobietolini.xyz/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Post</title>
-      <link>https://paolobietolini.xyz/tag-management/post/</link>
-      <pubDate>Sat, 06 May 2023 22:05:31 +0200</pubDate>
-      
-      <guid>https://paolobietolini.xyz/tag-management/post/</guid>
-      <description>h2 lorem ipsum</description>
-    </item>
-    
+    <language>it</language><atom:link href="https://paolobietolini.xyz/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

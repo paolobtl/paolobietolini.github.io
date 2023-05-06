@@ -5,27 +5,7 @@ $(document).ready(function () {
     if ($()) {
       console.log('🚀 jQuery loaded');
     }
-    /* Change navbar links if not the root page */
-    var root = window.location.origin + '/';
-    var currentPage = window.location.href;
-    var navbarLinks = $(".navbar > ul > li > a")
-    if (root !== currentPage) {
-      navbarLinks.each(function () {
-        $(this).attr("href", root + $(this).attr("href"));
-      });
-    }
-    if (window.location.hash) {
-      // Get the target element based on the fragment identifier
-      var target = $(window.location.hash);
-  
-      // Check if the target element exists on the page
-      if (target.length) {
-        // Scroll to the target element
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-      }
-    }
+    
     $('#menu').click(function () {
       $(this).toggleClass('fa-times');
       $('header').toggleClass('toggle')
@@ -40,16 +20,6 @@ $(document).ready(function () {
       } else {
         $('.top').hide();
       }
-    })
-  
-    $('a[href*="#"]').on('click', function (e) {
-      e.preventDefault();
-      $('html, body').animate({
-          scrollTop: $($(this).attr('href')).offset().top,
-        },
-        500,
-        'linear'
-      )
     })
   
     $('.hiddenMail').on('click', function (event) {
