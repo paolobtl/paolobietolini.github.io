@@ -14,7 +14,18 @@ $(document).ready(function () {
         $(this).attr("href", root + $(this).attr("href"));
       });
     }
+    if (window.location.hash) {
+      // Get the target element based on the fragment identifier
+      var target = $(window.location.hash);
   
+      // Check if the target element exists on the page
+      if (target.length) {
+        // Scroll to the target element
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+      }
+    }
     $('#menu').click(function () {
       $(this).toggleClass('fa-times');
       $('header').toggleClass('toggle')
