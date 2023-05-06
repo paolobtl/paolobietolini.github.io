@@ -72,7 +72,7 @@ $(document).ready(function () {
         $(':root').css('--white2', '#eee');
         $(':root').css('--dark', '#333');
         $(':root').css('--dark2', '#222');
-        $(':root').css('--black', '#111');
+        $(':root').css('--black', '#212427');
         $(':root').css('--header-bg', '#1a1a1a');
       }
     });
