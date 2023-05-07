@@ -8,13 +8,19 @@ a .summary {
     padding: 2rem 0;
     
 }
-.blog > a > p {
+.blog p {
     font-size: 2rem;
     color: var(--white2);
     padding: 1rem 0;
     text-transform: none;
 }
-
+#blog  div a span.read-more {
+    float:right;
+    color: var(--white2);
+ }
+ #blog  div a span.read-more:hover{
+    color: var(--yellow);
+ }
 .blog div span {
     color: var(--yellow);
     font-size: 1.5rem;

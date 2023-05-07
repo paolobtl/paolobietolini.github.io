@@ -1,11 +1,15 @@
 section#top {
 	min-height: 50vh;
 }
+aside div section {
+	min-height: 50vh;
+}
 .article-info{
 	color: var(--white);
 	padding: 0 8%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2.5rem;
+	float: right;
 }
 .featured-image-article {
 	height: auto;
@@ -51,8 +55,11 @@ article p {
 	text-transform: none;
 }
 
-article .author {
-	margin: 5rem 0;
+.article-author {
+	padding: 0 8%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+	color: var(--yellow);
 }
 
 /* pre,
