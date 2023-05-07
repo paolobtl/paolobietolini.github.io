@@ -37,3 +37,11 @@ a .summary {
     max-width: 80%;
     align-items: center;
 }
+
+
+/* Media Queries */
+@media (max-width:1200px) {
+	.blog {
+		padding: 1rem 4rem;
+	}
+}

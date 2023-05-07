@@ -437,7 +437,8 @@ footer p span {
 		font-size: 55%;
 	}
 
-	.home {
+	.home,
+	.blog {
 		padding: 1rem 4rem;
 	}
 }
